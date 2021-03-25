@@ -1,0 +1,276 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Innovation Day | Hackathon Registration </title>
+	<link href="https://fonts.googleapis.com/css2?family=Arimo&family=Viga&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="./styles/bootstrap.min.css">
+	<link rel="stylesheet" href="./styles/headerandfooter.css">
+	<link rel="stylesheet" href="./styles/hackathon.css">
+</head>
+
+<body class="text-capitalize" style="background-color: #101d3d;">
+
+	<!-- start the head of page -->
+	<!-- <button id="btnUp" class="rounded-circle  p-2 text-white change" style="background-color: #a83341;">
+		<i class="fa fa-chevron-up"></i>
+	</button> -->
+	<header>
+		<nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+			<a href="#" class="navbar-brand"><img src="images/logo3.png" class="ieee-logo" alt="innovation day"
+					class="logo" width="180px;"></a>
+			<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<!-- Collection of nav links-->
+			<div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
+				<div class="navbar-nav ml-auto">
+					<a href="index.html" class="nav-item nav-link" id="active"><span>Home</span></a>
+					<a href="crowd.html" class="nav-item nav-link"><span>Crowd</span></a>
+					<a href="speakers.html" class="nav-item nav-link"></i><span>Speakers</span></a>
+					<a href="workshops.html" class="nav-item nav-link"></i><span>Workshops</span></a>
+					<a href="hackathon.html" class="nav-item nav-link"><span>Hackathons</span></a>
+					<a href="register.html" class="nav-item nav-link"><span>Registration</span></a>
+					<a href="About.html" class="nav-item nav-link"><span>About</span></a>
+					<a href="contact.html" class="nav-item nav-link"><span>Contact Us</span></a>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- <br><br>
+	<a href="hackathon.php">Go to Home</a>-->
+	<br><br>
+
+
+
+
+	<!-- FORM -->
+	<div class="container">
+		<div class="h1 text-light text-center">
+			APPLY FOR HACKATHON NOW!
+		</div>
+		<form class="text-light container" action="./done.php" method="post">
+			<!-- NAME -->
+			<div class="form-group">
+				<label for="exampleInputEmail1">Name:</label> <span class="text-danger">*</span>
+				<input type="text" class="form-control" name="name" placeholder="" required>
+			</div>
+			<!-- MOBILE NUMBER -->
+			<div class="form-group">
+				<label for="exampleInputPassword1">Mobile</label> <span class="text-danger">*</span>
+				<input type="text" name="mobile" class="form-control" placeholder="" required>
+			</div>
+			<!-- EMAIL -->
+			<div class="form-group">
+				<label for="exampleInputEmail1">Email address</label> <span class="text-danger">*</span>
+				<input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp"
+					placeholder="" required>
+			</div>
+
+			<!-- GOVERNATE -->
+			<div class="form-group btn">
+				<label class="text-light">choose your Governate: </label>
+				<select name="Governate" required>
+					<option disabled selected hidden>Governate</option>
+					<option value="Minya">Minya</option>
+					<option value="Sohag">Sohag</option>
+					<option value="Qena">Qena</option>
+				</select> <span class="text-danger">*</span>
+			</div><br>
+
+			<!-- Your Background/Experience -->
+
+
+			<div class="form-group btn">
+				<label class="text-light">Your Background/Experience: </label>
+				<select name="Background_Experience" required>
+					<option disabled selected hidden>Background/Experience</option>
+					<option value="Entrepreneur (Have an idea)">Entrepreneur (Have an idea)</option>
+					<option value="Business Development">Business Development</option>
+					<option value="Developer">Developer</option>
+					<option value="Marketer">Marketer</option>
+					<option value="Designer">Designer</option>
+				</select> <span class="text-danger">*</span>
+			</div><br>
+
+
+
+			<!-- You're Participating As -->
+			<label>You're Participating As:</label> <span class="text-danger">*</span> <br>
+			<div class="form-check" required>
+				<input class="form-check-input" type="radio" value="Indivedual" id="Indivedual" name="participating">
+				<label class="form-check-label" for="Indivedual">Indivedual</label>
+			</div>
+			<div class="form-check">
+				<input class="form-check-input" type="radio" value="Group" id="Group" name="participating">
+				<label class="form-check-label" for="Group">Group</label>
+			</div>
+			<br>
+
+			<div class="h1"> if you choosed Group: </div>
+
+			<!-- TEAM NAME -->
+			<div class="form-group">
+				<label for="exampleInputEmail1">Team Name</label>
+				<input type="text" class="form-control" name="teamName" placeholder="">
+			</div>
+
+			<!-- TEAM NUMBER -->
+			<div class="form-group">
+				<label for="exampleInputEmail1">Team Number</label>
+				<input type="text" class="form-control" name="teamNo" placeholder="">
+			</div>
+
+			<!-- TEAM MEMBERS NAMES -->
+			<div class="form-group">
+				<label for="exampleInputEmail1">Members Names</label>
+				<input type="text" class="form-control" name="membersNames" placeholder="">
+			</div>
+
+			<!-- Your Profile Link(GitHub/LinkedIn/Behance) -->
+			<div class="form-group">
+				<label for="exampleInputEmail1">Your Profile Link(GitHub/LinkedIn/Behance)</label>
+				<input type="text" class="form-control" name="Profile_Link" placeholder="">
+			</div>
+
+
+			<!-- Describe You're Idea(For Entrepreneurs/Teams) -->
+			<div class="form-group">
+				<label for="exampleInputEmail1">Describe You're Idea(For Entrepreneurs/Teams)</label>
+				<textarea class="form-control" name="Describe_Idea" placeholder=""> </textarea>
+			</div>
+
+
+			<!-- What Do You Need To Execute Your Idea -->
+			<div class="form-group">
+				<label for="exampleInputEmail1">What Do You Need To Execute Your Idea</label>
+				<textarea class="form-control" name="Need_To_Execute_Your_Idea" placeholder=""> </textarea>
+			</div>
+
+
+			<!-- What Kind Of Mentorship Do You Need -->
+			<div class="form-group">
+				<label for="exampleInputEmail1">What Kind Of Mentorship Do You Need</label>
+				<textarea class="form-control" name="Mentorship_You_Need" placeholder=""> </textarea>
+			</div>
+
+			<!-- Have You Participated In Any Hackathons Before -->
+			<label>Have You Participated In Any Hackathons Before</label><br>
+			<div class="form-check">
+				<input class="form-check-input" type="radio" value="yes" id="yes" name="Participated_Hackathons_Before">
+				<label class="form-check-label" for="yes">Yes</label>
+			</div>
+			<div class="form-check">
+				<input class="form-check-input" type="radio" value="No" id="No" name="Participated_Hackathons_Before">
+				<label class="form-check-label" for="No">No</label>
+			</div>
+			<br>
+
+			<!-- If Yes, Mention The Hackathon Name -->
+			<div class="form-group">
+				<label>If Yes, Mention The Hackathon Name</label>
+				<textarea class="form-control" name="Hackathon_Name" placeholder=""> </textarea>
+			</div>
+
+
+
+			<!-- How Did You Know About Innovation Day Hackathon -->
+			<label> How Did You Know About Innovation Day Hackathon</label> <br>
+			<div class="form-group btn">
+				<select name="Know_About">
+					<option disabled selected hidden> choose</option>
+					<option value="Friends">Friends</option>
+					<option value="Social Media">Social Media</option>
+					<option value="others">others</option>
+				</select>
+			</div><br>
+
+			<!-- Add Your Comment -->
+			<div class="form-group">
+				<label>Add Your Comment</label>
+				<textarea rows="4" cols="50" class="form-control" name="comment" placeholder=""> </textarea>
+			</div>
+
+
+
+
+
+
+
+
+			<!-- SUBMIT BUTTON -->
+			<br>
+			<button type="submit" name="Submit" class="btn text-light" style="background-color:var(--red);">Submit</button>
+	</div>
+	</form>
+	<br><br><br>
+	<!-- footer -->
+	<footer>
+		<div class="footer">
+			<div>
+				<h2 style="font-family:'viga'; font-size: 22px; color:var(--red); font-weight:500;">Innovation Day
+				</h2>
+				<p>A series of integrated hackathons from idea to MVP to
+					product, a three days of providing all facilities to
+					the attendees also providing mentors, workshops and
+					sessions. Innovation Day Hackathon is a unique event style that provide the value of awareness
+					of technology to the mass and also to raise the awareness of entrepreneurship to help to launch
+					startups and help motivated youth to start their own businesses, We have skilled and talented
+					youth and it’s our time to motivate and lead them to make their ideas come true. Also the
+					hackathon is a great opportunity for ideation and finding innovative solutions for community
+					problems.
+					The final day is a one day event with all activities
+					of 10 talks in business technology and design featuring
+					the new technologies and opportunities, panel
+					discussions about investment opportunities in Upper
+					Egypt, startup exhibition for 40 startups from Upper
+					Egypt, and startup pitching competition for the best
+					10 startups
+				</p>
+			</div>
+			<div class="quick">
+				<h2 style="font-family:'viga'; font-size: 22px; color:var(--red); font-weight:500;">Quick Links</h2>
+				<a href="">Startups Registration</a>
+				<a href="">Partners Registration</a>
+				<a href="">Hackathon Registration</a>
+				<a href="">Speakers Registration</a>
+				<a href="">Attendees Registration</a>
+				<a href="">Workshops Registration</a>
+			</div>
+			<div class="">
+				<h3 style="font-family:'viga'; font-size: 22px;color:var(--red); font-weight:500;">Follow Us...</h3>
+				<a href="https://www.facebook.com/events/904737229734041/" target="_blank">
+					<img src="./images/fb.png" alt="facebook logo" width="30px">
+				</a>
+				<a href="https://twitter.com/IEEEMUSB" target="_blank">
+					<img src="./images/twetter.png" alt="twetter logo" width="20px">
+				</a>
+				<a href="https://www.youtube.com/user/IEEEMUSB" target="_blank">
+					<img src="./images/insta.png" alt="instagram logo" width="20px">
+				</a>
+				<a href="https://www.youtube.com/user/IEEEMUSB" target="_blank">
+					<img src="./images/youtube.png" alt="youtube" width="20px">
+				</a>
+				<br>
+				<h3 style="font-family:'viga'; font-size: 22px;color:var(--red); font-weight:500;">Contact Us</h3>
+				<span>halim@innovationday.com</span> <br>
+				<span>01007397235</span>
+			</div>
+		</div>
+		<div class="copy">
+			&copy; Innovation Day Team - 2021</div>
+	</footer>
+
+	<script src="./scripts/js/jquery-3.5.1.min.js"></script>
+	<script src="./scripts/js/popper.min.js"></script>
+	<script src="./scripts/js/bootstrap.min.js"></script>
+	<script src="./scripts/aos-master/dist/aos.js"></script>
+	<script src="./scripts/js/main2.js"></script>
+
+</body>
+
+</html>
