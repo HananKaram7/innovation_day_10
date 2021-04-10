@@ -31,11 +31,11 @@
 					<a href="index.html" class="nav-item nav-link" id="active"><span>Home</span></a>
 					<a href="crowd.html" class="nav-item nav-link"><span>Crowd</span></a>
 					<a href="speakers.php" class="nav-item nav-link"></i><span>Speakers</span></a>
-					<a href="workshops.html" class="nav-item nav-link"></i><span>Workshops</span></a>
+					<a href="workshops.php" class="nav-item nav-link"></i><span>Workshops</span></a>
 					<a href="hackathon.html" class="nav-item nav-link"><span>Hackathons</span></a>
 					<a href="register.php" class="nav-item nav-link"><span>Registration</span></a>
 					<a href="About.html" class="nav-item nav-link"><span>About</span></a>
-					<a href="contact.html" class="nav-item nav-link"><span>Contact Us</span></a>
+					<a href="contact.php" class="nav-item nav-link"><span>Contact Us</span></a>
 				</div>
 			</div>
 		</nav>

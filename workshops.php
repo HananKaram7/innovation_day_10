@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>work shopes</title>
-    <!-- fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Viga&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
-    <!-- ========================================================= -->
-    <link rel="stylesheet" href="aos-master/dist/aos.css">
-    <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="./styles/headerandfooter.css">
-</head>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- <link rel="stylesheet" href="./styles/bootstrap.min.css"> -->
+        <!-- <link rel="stylesheet" href="./styles/all.min.css"> -->
+        <link rel="stylesheet" href="./styles/headerandfooter.css">
+        <link rel="stylesheet" href="scripts/aos-master/dist/aos.css">
+        <link rel="stylesheet" href="styles/workshops.contact.css">
+        </head>
+
+   
 <body class="text-capitalize" style="background-color: #101d3d;" >
     <section class=" mb-5">
         <button id="btnUp" class="rounded-circle  p-2 text-white change" style="background-color: #a83341;">
@@ -30,27 +35,27 @@
                   <a href="index.html" class="nav-item nav-link" id="active"><span>Home</span></a>
                   <a href="crowd.html" class="nav-item nav-link"><span>Crowd</span></a>
                   <a href="speakers.html" class="nav-item nav-link"></i><span>Speakers</span></a>
-                  <a href="workshops.html" class="nav-item nav-link"></i><span>Workshops</span></a>
+                  <a href="workshops.php" class="nav-item nav-link"></i><span>Workshops</span></a>
                   <a href="hackathon.html" class="nav-item nav-link"><span>Hackathons</span></a>
                   <a href="register.html" class="nav-item nav-link"><span>Registration</span></a>
                   <a href="About.html" class="nav-item nav-link"><span>About</span></a>
-                  <a href="contact.html" class="nav-item nav-link"><span>Contact Us</span></a>
+                  <a href="contact.php" class="nav-item nav-link"><span>Contact Us</span></a>
                 </div>
               </div>
             </nav>
           </header>
         <section class="py-5" id="speakers" >
-            <div class="container">
+            <div class="container-fluid">
             <div class="row">
                         <div data-aos="fade-up" class="col-lg-6 col-md-12 col-sm-12 py-5"  style="background-color: #a83341;">
                         <div class="img-contant position-relative py-5">
                             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                                 <div class="carousel-inner">
                                   <div class="carousel-item active">
-                                    <img class="d-block w-100 rounded-right-2" src="imgs/wsh1.png" alt="First slide">
+                                    <img class="d-block w-100 rounded-right-2" src="images/wsh1.png" alt="First slide">
                                   </div>
                                   <div class="carousel-item">
-                                    <img class="d-block w-100 rounded-right-2 " src="imgs/wsh2.png" alt="Second slide">
+                                    <img class="d-block w-100 rounded-right-2 " src="images/wsh2.png" alt="Second slide">
                                   </div>
 
                                 </div>
@@ -65,19 +70,19 @@
                               </div>
                         </div>
                     </div>
-                        <div data-aos="fade-down" class="col-lg-6 col-md-12 col-sm-12 py-3" style="background-color:#254d9f;">
+                        <div data-aos="fade-down" class="col-lg-6 col-md-12 col-sm-12 py-3" style="background-color:#205cfa;">
                         <div class="contant py-2 my-5">
                         <h3 style="color: #101d3d;" class=" head mb-2 py-3 ">
                             <span style="color: #101d3d ; font-size: 58px;">8</span>
-                            <span style="color: #f1f1f1">i</span>nnovation <span style="color: #f1f1f1">d</span>ay:</h3>
+                            innovation day:</h3>
                             <p class="mb-3 mt-3" style="color:#f1f1f1; margin-bottom:20px; text-align: justify; font-family:'viga';">You no longer need to fly across the globe to connect with the MENA ecosystem at RiseUp Summit! Thought leaders, media mavens, tech-legends and power player investors gather to share their experience and lend support for the Middle East and Africa’s flourishing startup scene. This year, our speakers get to
                                 share their wisdom and tell their story from the comfort of their own home.</p>
                             <p class="mb-3" style="color:#f1f1f1; margin-bottom:20px; text-align: justify; font-family:'viga';">You no longer need to fly across the globe to connect with the MENA ecosystem at RiseUp Summit! Thought leaders, media mavens, tech-legends and power player investors gather to share their experience and lend support for the Middle East and Africa’s flourishing startup scene. This year, our speakers get to
                                     share their wisdom and tell their story from the comfort of their own home.</p>
                                        <!-- =========================================== -->
                                    <!-- icons conctions  -->
-                            <span class="cont-icon"><i class="fab fa-facebook-f"></i></span>
-                            <span class="cont-icon"><i class="fab fa-instagram-square"></i></span>
+                            <span class="cont-icon1"><i class="fab fa-facebook-f"></i></span>
+                            <span class="cont-icon1"><i class="fab fa-instagram-square"></i></span>
                             <span class="cont-icon"><i class="fab fa-twitter"></i></span>
                             <span class="cont-icon"><i class="fab fa-pinterest"></i></span>
                     </div>
@@ -86,24 +91,34 @@
             </div>
         </div>
         </section>
+        
         <!-- ===================================================================================== -->
         <!-- start of divs of the workshops -->
+        <div data-aos="fade-down" class="m-auto text-center">
+                <h1  style="color: #f1f1f1;">THIS YEAR’S <span style="color: #e8465a">
+                    <span style="; font-size: 58px;">8</span> innovation</span> SESSIONS</h1>
+                <p style="color: #f1f1f1;">You will be able to attend any of the workshops!</p>
+            </div>
+
         <section id="wk" class="py-5">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <div data-aos="fade-up"  class="col-lg-6 col-md-12 col-sm-12">
                         <div class="hed px-5 py-2" style="background-color: #205cfa;">
                             <h2 class="text-center text-white">in bierf workshops</h2>
                         </div>
                         <div class="contect item-work ">
-                            <img class="img-fluid" src="imgs/wsh1.png">
+                            <img class="img-fluid" src="images/wsh1.png">
                             <div class="layer-work text-center d-flex justify-content-center align-items-center text-white ">
                                 <div class="del">
                                 <h4 class="text-white"> in bierf workshops</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                <p class="wkp">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                      Neque optio, asperiores vel ut consectetur laudantium a fugiat
-                                       voluptatum repellat, debitis totam dicta, perferendis nesciunt molestiae similique?
-                                    Reiciendis, illo quidem assumenda doloremque asperiores facilis.</p>
+                                       voluptatum repellat, debitis totam dicta, molestiae similique?
+                                     doloremque asperiores facilis.</p>
+                                    <a  class="m-auto" href="workshopsDs.php">  <button class="btn text-center m-auto"
+                                        style="background-color: var(--blue); color: white; font-size: 18px; border-radius: 15px;" >
+                                        read more</button></a> 
                               </div>
                               </div>
                         </div>
@@ -114,26 +129,41 @@
                         </div>
                         <div class="contect item-work ">
 
-                            <img class="img-fluid" src="imgs/wsh2.png">
+                            <img class="img-fluid" src="images/wsh2.png">
                             <div class="layer-work text-center d-flex justify-content-center align-items-center text-white ">
                                 <div class="del">
                                 <h4 class="text-white"> deep-dive workshops</h4>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                      Neque optio, asperiores vel ut consectetur laudantium a fugiat.
                                       Tenetur exercitationem, dolorem dicta alias ducimus ad! Vero
-                                    Reiciendis, illo quidem assumenda doloremque asperiores facilis.</p>
+                                    afacilis.</p>
+                                    <a  class="m-auto" href="workshopsDs.php">  <button class="btn text-center m-auto"
+                                      style="background-color: var(--red); color: white; font-size: 18px; border-radius: 15px;" >
+                                         read more</button></a> 
+
                               </div>
                               </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <!--  -->
+            
+                   
         </section>
-        <section class="py-5" >
+
+        <div data-aos="fade-up" class="d-flex justify-content-center align-items-center">  
+            <a  class="m-auto" href="workshopform.php">  <button class="btn text-center m-auto"
+             style="background-color: var(--red); color: white; font-size: 30px; border-radius: 15px;" >
+             Register Now</button></a> 
+            </div>
+
+        
+        <!-- <section class="py-5" >
+        
             <div data-aos="fade-down" class="m-auto text-center">
                 <h1  style="color: #f1f1f1;">THIS YEAR’S <span style="color: #e8465a">
-                    <span style="color: #1ec2ad ; font-size: 58px;">8</span>
-                     innovation</span> SESSIONS</h1>
+                    <span style="; font-size: 58px;">8</span> innovation</span> SESSIONS</h1>
                 <p style="color: #f1f1f1;">You will be able to attend any of the workshops!</p>
             </div>
             <div class="container">
@@ -259,7 +289,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
       <!-- ============================================================ -->
       <!-- start of popup  -->
@@ -269,7 +299,7 @@
               <div class="container d-flex justify-content-center align-items-center ">
         <div class="row">
             <div class="col-md-4">
-                <img class="img-fluid rounded-pill" src="imgs/abaza.png">
+                <img class="img-fluid rounded-pill" src="images/abaza.png">
             </div>
                     <div class="col-md-8">
                        <h3 class="text-uppercase" style="color:#205cfa; max-width: 90%;">MAKE BULLETPROOF DECISIONS</h3>
@@ -283,7 +313,7 @@
                       .</p>
                  </div>
           <!-- function calling -->
-          <i id="close" class="far fa-times-circle" style="color: #254d9f;" onclick="closeLightBox()"></i>
+          <i id="close" class="far fa-times-circle" style="color: #205cfa;" onclick="closeLightBox()"></i>
         </div>
     </div>
     </div>
@@ -342,11 +372,11 @@
 
 
 
-    <script src="js/jquery-3.5.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/all.min.js"></script>
-    <script src="aos-master/dist/aos.js"></script>
-    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="scripts/js/all.min.js"></script>
+    <script src="scripts/aos-master/dist/aos.js"></script>
+    <script src="scripts/js/main.js"></script>
 </body>
 </html>

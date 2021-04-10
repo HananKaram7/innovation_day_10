@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>contact Us</title>
-  <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Viga&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="aos-master/dist/aos.css">
-  <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="./styles/headerandfooter.css">
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/all.min.css">
+    <link rel="stylesheet" href="./styles/headerandfooter.css">
+    <link rel="stylesheet" href="scripts/aos-master/dist/aos.css">
+    <link rel="stylesheet" href="styles/workshops.contact.css">
+    </head>
 
 <body class="text-capitalize" style="background-color: #101d3d;">
 
 
   <!-- start the head of page -->
   <section class=" mb-5">
-    <button id="btnUp" class="rounded-circle  p-2 text-white change" style="background-color: #a83341;">
+    <button id="btnUp" class="rounded-circle  p-2 text-white change" style="background-color: #e8465a;">
       <i class="fa fa-chevron-up"></i>
     </button>
     <header>
@@ -33,12 +37,12 @@
           <div class="navbar-nav ml-auto">
             <a href="index.html" class="nav-item nav-link" id="active"><span>Home</span></a>
             <a href="crowd.html" class="nav-item nav-link"><span>Crowd</span></a>
-            <a href="speakers.html" class="nav-item nav-link"></i><span>Speakers</span></a>
-            <a href="workshops.html" class="nav-item nav-link"></i><span>Workshops</span></a>
+            <a href="speakers.php" class="nav-item nav-link"></i><span>Speakers</span></a>
+            <a href="workshops.php" class="nav-item nav-link"></i><span>Workshops</span></a>
             <a href="hackathon.html" class="nav-item nav-link"><span>Hackathons</span></a>
-            <a href="register.html" class="nav-item nav-link"><span>Registration</span></a>
+            <a href="register.php" class="nav-item nav-link"><span>Registration</span></a>
             <a href="About.html" class="nav-item nav-link"><span>About</span></a>
-            <a href="contact.html" class="nav-item nav-link"><span>Contact Us</span></a>
+            <a href="contact.php" class="nav-item nav-link"><span>Contact Us</span></a>
           </div>
         </div>
       </nav>
@@ -46,11 +50,11 @@
     <!-- contant of contact us -->
     <div class="container-fluid mb-5">
       <div class="row">
-        <div data-aos="fade-down" class="col-lg-6 col-md-12 col-sm-12 py-5 " style="background-color:#254d9f;">
+        <div data-aos="fade-down" class="col-lg-6 col-md-12 col-sm-12 py-5 " style="background-color:#205cfa;">
           <div class="content px-5">
             <h2 style="color: #f1f1f1;" class="head py-3">
-              <span style="color: #a83341 ; font-size: larger;">#
-              </span>Contact <span style="color: #e8465a ; font-size: 18px;">us</span>
+              <span style="color: #101d3d ; font-size: larger;">#
+              </span>Contact <span style="color: #101d3d ; font-size: 18px;">us</span>
             </h2>
             <p style="color:#f1f1f1;" class=" lead py-2">
               Sed tamen tempor magna labore dolore dolor sint tempor
@@ -67,24 +71,24 @@
           <div class="row contact-info m-auto py-5 my-5 ">
             <div class="col-lg-4 col-md-4 col-sm-4 ">
               <div class="contact-address px-2 py-5">
-                <i style="color: #254d9f;" class="fas fa-map-marker-alt icon img-PORTFOLIO"></i>
-                <h3 class=" pt-3">Address</h3>
+                <i style="color: #101d3d;" class="fas fa-map-marker-alt icon img-PORTFOLIO"></i>
+                <h3 class=" pt-3" style="color:#f1f1f1 !important;">Address</h3>
                 <p style="color:#f1f1f1;">A108 Adam Street</p>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-4 col-sm-4 px-2 ">
               <div class="contact-phone py-5">
-                <i style="color: #254d9f;" class="fas fa-phone icon img-PORTFOLIO"></i>
-                <h3 class="pt-3">Phone </h3>
+                <i style="color: #101d3d;" class="fas fa-phone icon img-PORTFOLIO"></i>
+                <h3 class="pt-3" style="color:#f1f1f1 !important;">Phone </h3>
                 <p><a style="color:#f1f1f1 !important;" href="+0201007397235">+0201007397235</a></p>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-4 col-sm-4 px-2 py-5">
               <div class="contact-email">
-                <i style="color: #254d9f" class="far fa-envelope icon img-PORTFOLIO"></i>
-                <h3 class="pt-3">Email</h3>
+                <i style="color: #101d3d" class="far fa-envelope icon img-PORTFOLIO"></i>
+                <h3 class="pt-3" style="color:#f1f1f1 !important;">Email</h3>
                 <p><a style="color:#f1f1f1 !important;" href="halim@innovationday.com">halim@innovationday.com</a></p>
               </div>
             </div>
@@ -94,7 +98,7 @@
       </div>
     </div>
     <!-- iframe -->
-    <div id="if" class="container">
+    <div id="if" class="container-fluid">
       <div data-aos="fade-up" class="  col-lg-12 col-md-12 col-sm-12 mb-4">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14079.045095913947!2d30.762461721897147!3d28.092823874719812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145b25b220c24dc1%3A0x7479dce390f24120!2z2YbYp9iv2Ykg2LbYqNin2Lcg2KfZhNmC2YjYp9iqINin2YTZhdiz2YTYrdipINio2KfZhNmF2YbZitin!5e0!3m2!1sen!2seg!4v1595990672065!5m2!1sen!2seg"
@@ -109,7 +113,7 @@
         <form action="" method="post" role="form" class="contactForm">
           <div class="form-row">
             <div class="form-group col-lg-6  col-md-12 col-sm-12">
-              <label class="main font-weight-bold text-muted">enter your full name:</label>
+              <label class="main text-white ">enter your full name:</label>
               <input id="nameInput" type="name" name="name" class="form-control rounded" placeholder=""
                 data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
               <div class="text-danger d-none alert alert-danger" id="inputNameAlert">
@@ -117,7 +121,7 @@
               </div>
             </div>
             <div class="form-group col-lg-6 col-md-12 col-sm-12">
-              <label class="main font-weight-bold text-muted">enter your e-mail:</label>
+              <label class="main  text-white ">enter your e-mail:</label>
               <input id="emailInput" type="email" class="form-control rounded" name="email" placeholder=""
                 data-rule="email" data-msg="Please enter a valid email" />
               <div class="text-danger d-none alert alert-danger" id="inputEmailAlert">
@@ -127,7 +131,7 @@
           </div>
           <div class="row">
             <div class="form-group col-lg-12 col-md-12 col-sm-12">
-              <label class="main font-weight-bold text-muted">enter your number:</label>
+              <label class="main   text-white">enter your number:</label>
               <input id="phoneNumInput" type="number" class="form-control rounded" name="subject" placeholder=""
                 data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
               <div class="text-danger d-none alert alert-danger" id="inputNumAlert">
@@ -137,7 +141,7 @@
           </div>
           <div class="row">
             <div class="form-group col-lg-12 col-md-12 col-sm-12">
-              <label class="main font-weight-bold text-muted">your massage:</label>
+              <label class="main text-white">your massage:</label>
               <textarea class="form-control rounded" name="message" rows="5" data-rule="required"
                 data-msg="Please write something for us" placeholder="Message"></textarea>
               <div class="validation"></div>
@@ -208,12 +212,12 @@
   <!-- end the head of page -->
 
 
-  <script src="js/jquery-3.5.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/all.min.js"></script>
-  <script src="aos-master/dist/aos.js"></script>
-  <script src="js/main2.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="scripts/js/all.min.js"></script>
+  <script src="scripts/aos-master/dist/aos.js"></script>
+  <script src="scripts/js/main2.js"></script>
 </body>
 
 </html>
